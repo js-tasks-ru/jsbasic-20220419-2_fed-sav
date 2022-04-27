@@ -4,11 +4,11 @@ let calculator = {
   },
 
   sum () {
-    return a + b
+    return this.a + this.b
   },
 
-  mul (a, b) {
-    return a * b
+  mul () {
+    return this.a * this.b
   }
 };
 
