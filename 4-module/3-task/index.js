@@ -2,8 +2,6 @@ function highlight(table) {
 
   let tbody = table.children[1]
 
-  console.log(tbody)
-
   for (let i = 0; i < tbody.rows.length; i++) {
 
     //available / unavailable
